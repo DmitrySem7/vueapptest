@@ -1,0 +1,27 @@
+:root{
+  --text: white;
+  --alt-text:#107d57;
+  --background: #545c64;
+  --alt-background:#f5deb3;
+  --active-text:#ffd04b;
+  --alt-active-text:#57107d;
+
+}
+
+body{
+  margin: 0;
+}
+.nav-bar{
+  .el-menu{
+    height: 100vh;
+    .active-text-color{
+      color: wheat;
+    }
+  }
+}
+.game-map{
+  margin-left: 25%;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
+}
